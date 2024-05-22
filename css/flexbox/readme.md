@@ -45,3 +45,11 @@
 ### align-self
 
 `align-self: auto | flex-start | flex-end | center | baseline | stretch;`
+
+## Flexbox gaps
+
+- gap : gap between the flex items
+
+### gap
+
+`gap: <length> | <percentage>;`
