@@ -1,0 +1,57 @@
+body {
+  margin: 20px;
+}
+
+.container {
+  padding: 10px;
+  border: 2px solid dodgerblue;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box1 {
+  padding: 10px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-bold: bold;
+  background-color: tomato;
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+
+.box2 {
+  padding: 10px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-bold: bold;
+  background-color: mediumseagreen;
+  flex-grow: 4;
+  flex-basis: 400px;
+}
+
+.box3 {
+  padding: 10px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-bold: bold;
+  background-color: lightblue;
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+
+/*# sourceMappingURL=flexbox.css.map */
