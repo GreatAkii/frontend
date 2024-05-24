@@ -1,0 +1,23 @@
+.text {
+  font-size: 20px;
+  color: red;
+  @media screen and (hover: hover) {
+    &:hover {
+      color: blue;
+    }
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    color: violet;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 30px;
+  }
+}

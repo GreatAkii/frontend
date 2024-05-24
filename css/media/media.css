@@ -1,0 +1,19 @@
+.text {
+  font-size: 20px;
+  color: red; }
+  @media screen and (hover: hover) {
+    .text:hover {
+      color: blue; } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .text {
+      color: violet; } }
+  @media (prefers-color-scheme: dark) {
+    .text {
+      color: white;
+      background-color: black; } }
+
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 30px; } }
+
+/*# sourceMappingURL=media.css.map */
