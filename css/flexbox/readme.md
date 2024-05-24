@@ -7,7 +7,6 @@
 ## Flex container properties
 
 - flex-flow : flex-direction and flex-wrap property in one line
-
 - justify-content : align items on the main axis
 - align-items : align items on the cross axis
 - align-content : flex container with wrap property, align the lines to distribute the space on the cross axis

@@ -1,0 +1,46 @@
+.body {
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  height: 400px;
+  border: 2px solid dodgerblue;
+  border-radius: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(3, 200px);
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+@mixin box-prop($color: lightgrey) {
+  background-color: $color;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box1 {
+  @include box-prop(lightblue);
+  justify-self: stretch;
+  align-self: stretch;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box2 {
+  @include box-prop(lightcoral);
+}
+
+.box3 {
+  @include box-prop(lightgreen);
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box4 {
+  @include box-prop(lightgoldenrodyellow);
+}
+
+.box5 {
+  @include box-prop(lightpink);
+}
